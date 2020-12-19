@@ -1,0 +1,28 @@
+.container-song{
+    width: 600px;
+    background-color: rgba(8,8,8,0.9);
+    border-radius: 35px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    
+}
+
+span#now-playing {
+    font-size: 13px;
+    opacity: 30%;
+}
+
+#album-artwork {
+    width: 130px;
+    height: 130px;
+    box-shadow: 5px 5px 20px black;
+    margin: 30px;
+}
+
+#song-name {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    color: #7031d4;
+    font-size: 24px;
+}

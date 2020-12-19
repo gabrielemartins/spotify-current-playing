@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Current Playing</title>
+    <link
+      rel="stylesheet"
+      href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="login">
+        <h1>Authorization flow</h1>
+        <a href="/login" class="btn btn-primary">Log in with Spotify</a>
+      </div>
+    </div>
+
+    <div
+      class="container-song animate__animated animate__fadeInLeft animate__delay-1s"
+    >
+      <img id="album-artwork" src="" />
+      <div>
+        <span id="now-playing">Now Playing</span>
+        <h1 id="song-name"></h1>
+        <span id="artist-name"></span>
+      </div>
+    </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0-alpha.1/handlebars.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
