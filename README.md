@@ -53,10 +53,9 @@ Those are the technologies used to build the Widget
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+The original goal of the project was to create a widget to be used on OBS to show the song I was listening to on Spotify, in a live stream, as seen in the gif below, but it can be used for other purposes as well. 
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+[![Peek-2021-09-03-23-53.gif](https://s9.gifyu.com/images/Peek-2021-09-03-23-53.gif)](https://gifyu.com/image/JzBP)
 
 
 <!-- ROADMAP -->
